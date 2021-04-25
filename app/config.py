@@ -4,7 +4,7 @@ class Config(object):
     """Base Config Object"""
     DEBUG = False
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'Som3$ec5etK*y'
-    UPLOAD_PROFILE = os.environ['UPLOAD_PROFILE'] = './app/staticuploads/profile' 
+    UPLOAD_PROFILE = os.environ['UPLOAD_PROFILE'] = './app/static/uploads/profile' 
     UPLOAD_CARPHOTO = os.environ['UPLOAD_CARPHOTO'] = './app/static/uploads/carPhoto' 
     UPLOAD_VPROFILE = os.environ['UPLOAD_VPROFILE'] = 'static/uploads/profile' 
     UPLOAD_VCARPHOTO = os.environ['UPLOAD_VCARPHOTO'] = 'static/uploads/carPhoto'
